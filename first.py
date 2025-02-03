@@ -2,6 +2,7 @@ print("Name: Justin Fernando")
 print("Student No: 202420033")
 print("Year: 2 - BSIT | transferee")
 
+# these are the strings//objective of the program
 vowels = "AEIOUaeiou"
 consonants = "BCDFGHJKLMNPQRSTVWXYZbcdfghjklmnpqrstvwxyz"
 spaces = ""
@@ -13,6 +14,7 @@ otherChar = 0
 
 input_char = input("Enter text: ")
 
+# the process (in pseudocode)
 for char in input_char:
     if char in vowels:
         vowelCount += 1
@@ -23,7 +25,7 @@ for char in input_char:
     else:
         otherChar += 1
    
-
+# printing out
 print("Vowels: ", vowelCount)
 print("Consonants: ", consonantsCount)
 print("Spaces: ", spaces)
